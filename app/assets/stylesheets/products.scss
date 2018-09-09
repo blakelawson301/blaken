@@ -1,0 +1,77 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.products-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productgallery-name {
+  font-size: 1.15em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.productgallery-decription {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.productgallery-color {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.productgallery-price {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.productgallery-edit p {
+  float:right;
+  padding-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  font-size: 0.9em;
+}
+
+p.horizontal-line::after {
+ content: '';
+ position: absolute;
+ width: 0.1em;
+ height: 1em;
+ margin-left: 1%;
+ margin-top: 1%;
+ background: #3d3c3c;
+}
+
+.productgallery-info {
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.form {
+  margin-left: 50px;
+  margin-right: 45%;
+}
+
+#notice {
+  color: #cba90d!important;
+  font-size: 2em;
+  font-weight: bolder;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.new-product {
+  float: left;
+  margin-left: 1%;
+  font-weight: bold;
+}
